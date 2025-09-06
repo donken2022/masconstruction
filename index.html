@@ -91,7 +91,9 @@
         <!-- Navigation Buttons -->
         <nav class="container mx-auto flex flex-col md:flex-row justify-center items-center space-y-2 md:space-y-0 md:space-x-6 text-lg font-semibold mt-4">
             <button class="nav-link bg-gold text-brown px-4 py-2 rounded-full hover:bg-white transition-colors duration-300" data-page="home-page">Home</button>
-            <button class="nav-link bg-gold text-brown px-4 py-2 rounded-full hover:bg-white transition-colors duration-300" data-page="contact-page">Contact</button>
+<button class="nav-link bg-gold text-brown px-4 py-2 rounded-full hover:bg-white transition-colors duration-300" data-page="projects-page"><a href="#projects-page">Projects</a></button>
+<button class="nav-link bg-gold text-brown px-4 py-2 rounded-full hover:bg-white transition-colors duration-300" data-page="Services-page"><a href="#services-page">Services</a></button>
+            <button class="nav-link bg-gold text-brown px-4 py-2 rounded-full hover:bg-white transition-colors duration-300" data-page="contact-page"><a href="#contact-page">Contact</a></button>
         </nav>
     </header>
 
@@ -101,12 +103,12 @@
         <div id="home-page" class="page-content active">
             <div class="relative w-full h-screen overflow-hidden rounded-xl shadow-lg">
                 <!-- Carousel Slides -->
-                <div id="slide-1" class="carousel-slide flex-col justify-center items-center text-center p-8 active" style="background-image: url(const1.png);">
+                <div id="slide-1" class="carousel-slide flex-col justify-center items-center text-center p-8 active" style="background-image: url(const2.png);">
                     <span class="text-white text-xl md:text-2xl font-semibold mb-4 drop-shadow-lg">Professional Builder</span>
                     <h2 class="text-white text-4xl md:text-6xl font-extrabold leading-tight mb-8 drop-shadow-lg">We Build Your Home</h2>
                     <button class="bg-gold text-brown font-bold text-lg px-8 py-3 rounded-full shadow-md hover:shadow-xl transition-all duration-300">GET A QUOTE</button>
                 </div>
-                <div id="slide-2" class="carousel-slide flex-col justify-center items-center text-center p-8" style="background-image: url(const2.png);">
+                <div id="slide-2" class="carousel-slide flex-col justify-center items-center text-center p-8" style="background-image: url(const1.png);">
                     <span class="text-white
                      text-xl md:text-2xl font-semibold mb-4 drop-shadow-lg">Innovative Design & Quality</span>
                     <h2 class="text-white text-4xl md:text-6xl font-extrabold leading-tight mb-8 drop-shadow-lg">Your Vision, Our Expertise</h2>
@@ -153,28 +155,28 @@
             <h2 class="text-center text-4xl md:text-5xl font-extrabold text-yellow-900 mb-10">Our Services</h2>
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 text-center">
                 <div class="bg-white rounded-xl shadow-lg overflow-hidden">
-                    <img src="const1.png" alt="Residential Construction" class="w-full h-48 object-cover">
+                    <img src="projects/residentialconst.png" alt="Residential Construction" class="w-full h-48 object-cover">
                     <div class="p-4">
                         <h3 class="text-xl font-bold text-brown">Residential Construction</h3>
                         <p class="text-gray-600">From custom homes to multi-family units, we build spaces that stand the test of time.</p>
                     </div>
                 </div>
                 <div class="bg-white rounded-xl shadow-lg overflow-hidden">
-                    <img src="const1.png" alt="Commercial Construction" class="w-full h-48 object-cover">
+                    <img src="projects/comercialconst.png" alt="Commercial Construction" class="w-full h-48 object-cover">
                     <div class="p-4">
                         <h3 class="text-xl font-bold text-brown">Commercial Construction</h3>
                         <p class="text-gray-600">We create commercial buildings, including offices and retail spaces, designed for success.</p>
                     </div>
                 </div>
                 <div class="bg-white rounded-xl shadow-lg overflow-hidden">
-                    <img src="const1.png" alt="Renovation & Remodeling" class="w-full h-48 object-cover">
+                    <img src="projects/renovmodconst.png" alt="Renovation & Remodeling" class="w-full h-48 object-cover">
                     <div class="p-4">
                         <h3 class="text-xl font-bold text-brown">Renovation & Remodeling</h3>
                         <p class="text-gray-600">Transform your existing space with our expert renovation services, from minor updates to complete overhauls.</p>
                     </div>
                 </div>
                 <div class="bg-white rounded-xl shadow-lg overflow-hidden">
-                    <img src="const1.png" alt="Industrial Projects" class="w-full h-48 object-cover">
+                    <img src="projects/industrialconst.png" alt="Industrial Projects" class="w-full h-48 object-cover">
                     <div class="p-4">
                         <h3 class="text-xl font-bold text-brown">Industrial Projects</h3>
                         <p class="text-gray-600">We build large-scale industrial facilities to support logistics and manufacturing operations.</p>
@@ -197,6 +199,59 @@
                 </iframe>
             </div>
         </section>
+ <!-- Projects Page -->
+        <div id="projects-page" class="page-content">
+            <h2 class="text-center text-4xl md:text-5xl font-extrabold text-brown mb-10">Our Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="group bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden">
+                    <img src="projects/im1.jpeg" alt="Residential Project" class="w-full h-48 object-cover transform transition-transform duration-300 group-hover:scale-105">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold text-brown">Modern Family Home</h3>
+                        <p class="text-gray-600">A custom-built residential property featuring smart home technology and sustainable materials.</p>
+                    </div>
+                </div>
+                <div class="group bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden">
+                    <img src="projects/im2.jpeg" alt="Corporate Office" class="w-full h-48 object-cover transform transition-transform duration-300 group-hover:scale-105">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold text-brown">Corporate Office Complex</h3>
+                        <p class="text-gray-600">A multi-story commercial building designed for modern business needs with flexible office spaces.</p>
+                    </div>
+                </div>
+                <div class="group bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden">
+                    <img src="projects/im3.jpeg" alt="Retail Store" class="w-full h-48 object-cover transform transition-transform duration-300 group-hover:scale-105">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold text-brown">Flagship Retail Store</h3>
+                        <p class="text-gray-600">A stylish retail space designed to enhance the customer shopping experience.</p>
+                    </div>
+                </div>
+                <div class="group bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden">
+                    <img src="projects/im4.jpeg" alt="Restaurant Renovation" class="w-full h-48 object-cover transform transition-transform duration-300 group-hover:scale-105">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold text-brown">Restaurant Renovation</h3>
+                        <p class="text-gray-600">A complete overhaul of a historic building, creating a modern and welcoming restaurant space.</p>
+                    </div>
+                </div>
+                <div class="group bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden">
+                    <img src="projects/im5.jpeg" alt="School Addition" class="w-full h-48 object-cover transform transition-transform duration-300 group-hover:scale-105">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold text-brown">School Addition</h3>
+                        <p class="text-gray-600">A new wing added to an existing school, including classrooms, a library, and a gymnasium.</p>
+                    </div>
+                </div>
+                <div class="group bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden">
+                    <img src="projects/im6.jpeg" alt="Industrial Warehouse" class="w-full h-48 object-cover transform transition-transform duration-300 group-hover:scale-105">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold text-brown">Industrial Warehouse</h3>
+                        <p class="text-gray-600">A large-scale industrial facility built to support logistics and distribution operations.</p>
+                    </div>
+
+                    
+                </div>
+            </div>
+  
+        </div>
+
+        
 
         <!-- Contact Page -->
         <div id="contact-page" class="page-content">
